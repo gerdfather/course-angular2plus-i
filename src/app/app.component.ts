@@ -3,18 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h2>Inline Template</h2>
-    <app-other></app-other>
-    <app-another>
-      <h1>Ich komme aus der Root-Component</h1>
-    </app-another>
-  `,
-  styles: [`
-    h2 {
-      color: red;
-    }
-  `]
+    <h1>Data Binding</h1>
+    <hr>
+    <app-databinding></app-databinding>
+  `
 })
-export class AppComponent {
-  title = 'course-angular2plus-i';
-}
+export class AppComponent {}
